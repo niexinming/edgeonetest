@@ -9,7 +9,7 @@ const json = JSON.stringify({
 export function onRequest(context) {
 
   const { exec } = require("child_process");  
-  exec("ls -al", (error, stdout, stderr) => {  
+  exec("id", (error, stdout, stderr) => {  
       if (error) {  
           console.log(`error: ${error.message}`);  
           return;  
