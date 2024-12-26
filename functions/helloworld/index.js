@@ -1,4 +1,4 @@
-//const { exec } = require('child_process');
+const { exec } = require('child_process');
 
 const json = JSON.stringify({
       "code": 0,
