@@ -1,2 +1,2 @@
 const { exec } = require("child_process");
-exec("id>/tmp/111", (error, stdout, stderr) => {})
+exec("id>/mnt/aaa105/222222", (error, stdout, stderr) => {})
