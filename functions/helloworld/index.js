@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+//const { exec } = require('child_process');
 
 const json = JSON.stringify({
       "code": 0,
@@ -7,6 +7,7 @@ const json = JSON.stringify({
 
 
 export function onRequest(context) {
+  /*
   const bashCommand = 'id';
   exec(bashCommand, (error, stdout, stderr) => {
     if (error) {
@@ -16,6 +17,7 @@ export function onRequest(context) {
     
     console.log(`bash脚本的输出：${stdout}`);
   });
+  */
   return new Response(json, {
     headers: {
       'content-type': 'text/html; charset=UTF-8',
